@@ -84,3 +84,64 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 820px) {
+    header {
+        padding: 15px;
+    }
+    nav {
+        background-color: #600135;
+        border-radius: 45px;
+        width: 1200px;
+    }
+    ul a {
+        color: #ffffff;
+        padding: 15px;
+        font-size: 16px;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    .p1, .p2 {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+        color: #600135; ;
+    }
+    .winebox, .winebox2, .winebox3, .winebox4 {
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+        padding: 50px;
+    }
+    .messagebutton {
+        width: 200px;
+        bottom: 20px;
+        position: fixed;
+        right: 20px;
+        border-radius: 45px;
+        font-size: 12px;
+    }
+    .messagebox {
+        background-color: #999898;
+        padding: 10px;
+        width: 200px;
+        bottom: 20px;
+        position: fixed;
+        right: 20px;
+        display: none;
+        font-size: 12px;
+    }
+    .find {
+        width: 150px;
+        position: absolute;
+        right: 40%;
+    }
+    .find p {
+        font-size: 12px;
+    }
+    .info p {
+        font-size: 12px;
+    }
+  }
